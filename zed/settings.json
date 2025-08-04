@@ -1,9 +1,6 @@
 {
   "theme": "Catppuccin Mocha",
   "icon_theme": "Catppuccin Mocha",
-  "features": {
-    "edit_prediction_provider": "none"
-  },
   "buffer_font_family": "CommitMono Nerd Font Mono",
   "buffer_font_size": 16,
   "ui_font_family": "Adwaita Sans",
@@ -39,10 +36,6 @@
   "notification_panel": {
     "button": false
   },
-  "agent": {
-    "version": "2",
-    "enabled": false
-  },
   "tabs": {
     "git_status": true,
     "file_icons": true,
@@ -56,6 +49,7 @@
     "metrics": false,
     "diagnostics": false
   },
+  "disable_ai": true,
   "lsp_document_colors": "background",
   "git": {
     "inline_blame": {

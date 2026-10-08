@@ -1,11 +1,24 @@
 [commit]
     gpgSign = true
 
+[core]
+    pager = delta
+
+[delta]
+    line-numbers = true
+    navigate = true
+
 [gpg]
     format = ssh
 
 [init]
     defaultBranch = main
+
+[interactive]
+    diffFilter = delta --color-only
+
+[merge]
+    conflictStyle = zdiff3
 
 [tag]
     gpgSign = true
